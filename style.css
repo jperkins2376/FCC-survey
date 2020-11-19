@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}	
+
+
+#title, #description {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(242, 242, 242);
+}
+
+#main {
+	margin: .5% 4% 0 4%;
+	padding-top: 1%;
+	background-color: rgba(89, 89, 89, 0.2);
+}
+
+
+#survey-form {
+	margin: auto;
+	width: 65%;
+	font-size: 1.25em;
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(250, 27, 106, 0.2);
+	padding: 10px 20px 10px 20px;
+	color: #f3f3f3;
+}
+
+
+input[type=text], input[type=email], input[type=tel], select, textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  transition: border-left .5s ease-out;
+}
+
+textarea {
+	border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+	background: #ccc;
+}
+
+input:required {
+	border-left: solid#02C8FA;
+}
+
+#submit {
+
+	padding: 5px;
+	font-size: 1em;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 10px;
+	background: #02C8FA;
+	color: rgb(0, 0, 0);
+
+}
+
+#submit:hover {
+	background: rgba(63, 0, 0, .3);
+	color: rgb(242, 242, 242);
+}
