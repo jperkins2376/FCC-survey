@@ -1,0 +1,83 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+--><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<!--Header-->
+        <header>
+            <H1 id="title">This Is The Title</H1>
+            <P id="description">This is where the words go.</P>
+        </header>
+    </div>
+<!--Forms-->
+    <div id="form">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required><br/>
+            
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" name="email" placeholder="name@domain.com" required><br/>
+  
+            <label for="number" id="number-label">Select a Number</label>
+            <input type="number" id="number" name="number" min="1" max="10" placeholder="1-10"><br/>
+            
+            <label for="selection" id="dropdown" >Choose :</label>
+
+            <select id="dropdown">
+                <option value="">--Please choose an option--</option>
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+                <option value="Three">Three</option>
+                <option value="Four">Four</option>
+                <option value="Five">Five</option>
+                <option value="Six">Six</option>
+            </select>
+  
+            <h2>Choose:</h2>
+            <input type="radio" id="alpha" name="auto" value="alpha" class="greek">
+            <label for="alpha">Alpha</label>
+            <input type="radio" id="Beta" name="auto" value="Beta">
+            <label for="Beta">Beta</label>
+            <input type="radio" id="Detla" name="auto" value="Detla">
+            <label for="Detla">Detla</label>
+        
+         
+
+            <h2>Favorite color(s):</h2>
+            <input type="checkbox" name="color1" value="red">
+            <label for="color1">Red</label>
+            <input type="checkbox" name="color2" value="black">
+            <label for="color2">Black</label>
+            <input type="checkbox" name="color3" value="silver">
+            <label for="color3">Silver</label>
+            <input type="checkbox" name="color4" value="white">
+            <label for="color4">White</label>
+            <input type="checkbox" name="color5" value="blue">
+            <label for="color5">Blue</label>
+
+
+            <h2>Additional Comments</h2>
+            <textarea id="comments" rows="5" cols="40"></textarea>
+            <input id="submit" type="submit" value="submit">
+        </form>
+    </div>
+        
+</body>
+</html>
+
+
